@@ -66,16 +66,25 @@
 	font-style: normal;
 	font-weight: normal;
 }
-.aside__content2 button{
+.btn1{
 background-color: #6C757D;
 box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.9);
 border-radius: 7px;
 outline: none;
 padding: 10px;
 margin:19px 84px 23px;
-color: white;
+
 }
 
+.btn1 a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Conv_Rubik-Medium';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+}
 
 .aside__content2__text2 img{
 	width: 298px;
@@ -130,17 +139,20 @@ color: white;
 	background-color: #C4C4C4;
 	border: 1px solid #FF9568;
 	border-radius: 15px;
+	padding: 7px;
+	margin: 2px 103px 18px;
+	outline: none;
+}
+
+.btn a{
+	text-decoration: none;
 	font-family: 'Conv_Rubik';
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 17px;
 	color: #FFFFFF;
-	padding: 7px;
-	margin: 2px 103px 18px;
-	outline: none;
 }
-
 .btn .fa-arrow-right{
 	color: #FF9568;
 	margin-left: 10px;
